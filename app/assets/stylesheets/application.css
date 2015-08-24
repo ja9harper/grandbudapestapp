@@ -23,22 +23,27 @@ body {
 
 /* Initial menu */
 .menu {
-  background: #202024 url('http://www.caribbeannewsdigital.com/en/sites/default/files/en/imagenes_noticias/waiter.jpg');
+  /*background-image: url('http://i.istockimg.com/file_thumbview_approve/55894538/3/stock-photo-55894538-waiter-serving-empty-platter.jpg');*/
   left: -285px;  /* start off behind the scenes */
-  height: 100%;
+  height: 450px;
   position: fixed;
   width: 285px;
+}
+.menu img {
+	top: 250px;
 }
 
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('http://d.fastcompany.net/multisite_files/fastcompany/poster/2015/02/3042014-poster-p-1-behind-the-scenes-of-the-oscar-nominated-production-design-of-the-grand-budapest-hotel.jpg'); 
+  
+  background: url('http://d.fastcompany.net/multisite_files/fastcompany/poster/2015/02/3042014-poster-p-1-behind-the-scenes-of-the-oscar-nominated-production-design-of-the-grand-budapest-hotel.jpg') no-repeat 50% 10% fixed; 
+  background-size: 450px;
   height: 500px;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
-          background-size: cover;
+        
 }
 
 .menu ul {
@@ -49,7 +54,7 @@ body {
 }
 
 .menu li {
-  border-bottom: 1px solid #636366;
+  border-bottom: 1px solid black;
   font-family: 'Open Sans', sans-serif;
   line-height: 45px;
   padding-bottom: 3px;
@@ -58,7 +63,7 @@ body {
 }
 
 .menu a {
-  color: #fff;
+  color: black;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;

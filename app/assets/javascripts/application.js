@@ -37,6 +37,8 @@ var main = function() {
     }, 200);
   });
 };
-
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
 
 $(document).ready(main);
