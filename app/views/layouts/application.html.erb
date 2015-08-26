@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Grandbudapestapp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
- <%= render 'layouts/bootstrap' %>
+	<title>Grandbudapestapp</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+	<%= render 'layouts/bootstrap' %>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
     <link href='application.css' rel='stylesheet'>
 
@@ -13,20 +13,22 @@
     <div class="menu">
       
       <!-- Menu icon -->
-      <div class="icon-close">
+    	<div class="icon-close">
         <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+    	</div>
       <!--  <img src="http://i.istockimg.com/file_thumbview_approve/55894538/3/stock-photo-55894538-waiter-serving-empty-platter.jpg"> -->
-      </div>
-
-      <!-- Menu -->
-      <ul>
-        <li><a href="#"><i class="fa fa-eye"></i> About</a></li>
-        <li><a href="#"><i class="fa fa-male"></i> Services </a></li>
-        <li><a href="products/:id"><i class="fa fa-shopping-cart"> Shop  </i></a></li>
-        <li><a href="#"><i class="fa fa-envelope"></i>  Contact </a></li>
-      </ul>
+       		<ul>
+        		<li><a href="#"><i class="fa fa-eye"></i> About</a></li>
+       			<li><a href="#"><i class="fa fa-male"></i> Services </a></li>
+        		<li><a href="products/:id"><i class="fa fa-shopping-cart"> Shop  </i></a></li>
+        		<li><a href="#"><i class="fa fa-envelope"></i>  Contact </a></li>
+      		</ul>
     </div>
 
+      <!-- Menu -->
+     
+    </div>
+</head>
 
     <!-- Main body -->
     <div class="jumbotron">
