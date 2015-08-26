@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='application.css' rel='stylesheet'>
 	<title>Grandbudapestapp</title>
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 	<%= render 'layouts/bootstrap' %>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
-    <link href='application.css' rel='stylesheet'>
-
+    
+  <div class="jumbotron">
+<div class="container">
+      <div class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Welcome
+      </div>
+  </div>
 
     <div class="menu">
       
@@ -31,14 +38,16 @@
 </head>
 
     <!-- Main body -->
-    <div class="jumbotron">
-<div class="container">
-      <div class="icon-menu">
-        <i class="fa fa-bars"></i>
-        Welcome
-      </div>
-  </div>
-
+  
+<section class="container-fluid bg-1" id="page1">
+            <div class="row text-center center-block">
+                <div class="col-xs-4 col-xs-12"><h2>Elegance</h2></div>
+                <div class="col-xs-4 col-xs-12"><h2>Beauty</h2></div>
+                <div class="col-xs-4 col-xs-12"><h2>Convenience</h2></div>
+            </div>
+        </section>
+      
+       
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>   <script src="application.js"></script>
 
@@ -61,6 +70,26 @@
     </div>
 </div>
 </div>
+
+
+        <section class="container-fluid bg-3" id="aboutUsSection">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 bubble">
+                    <h1>Our Story</h1>
+                    <p>We did some things</p>
+                    <p>Maria Harper is a talented floral artist and interior decorating wizard</p>
+                    <p>Chris Harper is a business strategist who will figure out what you need.</p>
+                </div>
+         <div class="col-xs-2 col-xs-offset-1"><a href="/" class="scroll-top"><img src="#" class="img-circle"></a></div>
+                <div class="col-xs-3 pull-right">
+                    <strong class="text-nowrap">Contact Us</strong>
+                   <ul class="list-inline center-block">
+                        <li><a href="#"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram fa-3x"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square fa-3x"></i></a></li>                        
+                    </ul>
+                   
+                </div>
 
   </body>
 </html>
